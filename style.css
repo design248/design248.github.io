@@ -1,5 +1,5 @@
 .Intro{
-  border: 1px white solid;
+
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 1px;
@@ -7,7 +7,7 @@
 }
 
 .desc{
-  border: 1px blue solid;
+
   grid-column: 2;
   grid-row: 4;
   align-items: baseline;
@@ -17,19 +17,19 @@
 }
 #name{
   font-size: 40px;
-  border: 1px red solid;
+
   padding: 1;
   margin-bottom: 5px;
 }
 #info{
-  border: 1px brown solid;
+
   font-size: 20px;
   margin-bottom: 5px;
 }
 
 
 .location{
-  border: 1px green solid;
+
   grid-column: 3;
   text-align: right;
     align-self: flex-start;
