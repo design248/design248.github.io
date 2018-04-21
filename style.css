@@ -4,11 +4,6 @@
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 1px;
   grid-auto-rows: minmax(100px, auto);
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 2s; /* Firefox < 16 */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-     -o-animation: fadein 2s; /* Opera < 12.1 */
-        animation: fadein 2s;
 }
 
 .desc{
@@ -22,14 +17,23 @@
 }
 #name{
   font-size: 40px;
-
   padding: 1;
   margin-bottom: 5px;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+     -o-animation: fadein 2s; /* Opera < 12.1 */
+        animation: fadein 2s;
 }
 #info{
 
   font-size: 20px;
   margin-bottom: 5px;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+     -o-animation: fadein 4s; /* Opera < 12.1 */
+        animation: fadein 4s;
 }
 
 
@@ -52,10 +56,49 @@ img{
   width: 25px;
   margin: 1px;
 }
-#flag{
-  width: 100px;
+.location img{
+  width: 50px;
+  -webkit-animation: fadein 15s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 15s; /* Firefox < 16 */
+    -ms-animation: fadein 15s; /* Internet Explorer */
+     -o-animation: fadein 15s; /* Opera < 12.1 */
+        animation: fadein 15s;
 }
 
+#coco{
+  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 8s; /* Firefox < 16 */
+    -ms-animation: fadein 8s; /* Internet Explorer */
+     -o-animation: fadein 8s; /* Opera < 12.1 */
+        animation: fadein 8s;
+}
+#surf{
+  -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 10s; /* Firefox < 16 */
+    -ms-animation: fadein 10s; /* Internet Explorer */
+     -o-animation: fadein 10s; /* Opera < 12.1 */
+        animation: fadein 10s;
+
+}
+#cam{
+  -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 12s; /* Firefox < 16 */
+    -ms-animation: fadein 12s; /* Internet Explorer */
+     -o-animation: fadein 12s; /* Opera < 12.1 */
+        animation: fadein 12s;
+}
+#pc{
+  -webkit-animation: fadein 14s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 14s; /* Firefox < 16 */
+    -ms-animation: fadein 14s; /* Internet Explorer */
+     -o-animation: fadein 14s; /* Opera < 12.1 */
+        animation: fadein 14s;
+
+}
+
+
+
+/*---------Keyframes-----------------------*/
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
