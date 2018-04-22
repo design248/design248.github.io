@@ -134,7 +134,7 @@ img{
   height: 250px;
   width: 100%;
   object-fit: cover;
-  padding: 5px;
+
   opacity: 0.8;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -183,7 +183,7 @@ img{
   height: 250px;
   width: 100%;
   object-fit: cover;
-  padding: 5px;
+  
   opacity: 0.8;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 4s; /* Firefox < 16 */
