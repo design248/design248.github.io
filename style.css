@@ -2,7 +2,7 @@
 
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: repeat(6, 100px);
+  grid-template-rows: repeat(8, 100px);
   grid-gap: 1px;
   grid-auto-rows: minmax(100px, auto);
 
@@ -14,10 +14,46 @@
   grid-column: 2;
   grid-row: 2;
   align-items: baseline;
+  justify-content: center;
   text-align: left;
 
 
 }
+.icons{
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.down{
+  top: 20%;
+  grid-column: 2;
+  grid-row: 6;
+
+  left: 50%;
+
+
+
+}
+
+#arrow{
+  grid-column: 2;
+  grid-row: 6;
+  width: 100px;
+  height: 100px;
+
+  position: relative;
+  left: 50%;
+  top: 0%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 4s; /* Firefox < 16 */
+      -ms-animation: fadein 4s; /* Internet Explorer */
+       -o-animation: fadein 4s; /* Opera < 12.1 */
+          animation: fadein 4s;
+
+
+}
+
 #name{
   font-size: 40px;
   padding: 1;
