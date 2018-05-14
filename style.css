@@ -1,46 +1,24 @@
-.Intro{
-
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: repeat(8, 100px);
-  grid-gap: 1px;
-  grid-auto-rows: minmax(100px, auto);
-
-  margin-bottom: 100px;
-}
-
-.desc{
-
-  grid-column: 2;
-  grid-row: 2;
-  align-items: baseline;
-  justify-content: center;
-  text-align: left;
-
+body{
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  border: 1px solid white;
+  background: url(Images/web.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
 }
-.icons{
-  grid-column: 2;
-  grid-row: 4;
-}
+.heading{
 
-
-
-#arrow{
-  grid-column: 2;
-  grid-row: 6;
-  width: 100px;
-  height: 100px;
-
-  position: relative;
+  color: white;
+  position: fixed;
+  top: 50%;
   left: 50%;
-  top: 0%;
-    transform: translate(-50%, -50%);
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 4s; /* Firefox < 16 */
-      -ms-animation: fadein 4s; /* Internet Explorer */
-       -o-animation: fadein 4s; /* Opera < 12.1 */
-          animation: fadein 4s;
+  transform: translate(-50%, -50%);
+  font-family: 'Arimo', sans-serif;
+  color: white;
 
 
 }
@@ -49,110 +27,15 @@
   font-size: 40px;
   padding: 1;
   margin-bottom: 5px;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 2s; /* Firefox < 16 */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-     -o-animation: fadein 2s; /* Opera < 12.1 */
-        animation: fadein 2s;
+
 }
 #info{
 
   font-size: 20px;
   margin-bottom: 5px;
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 4s; /* Firefox < 16 */
-    -ms-animation: fadein 4s; /* Internet Explorer */
-     -o-animation: fadein 4s; /* Opera < 12.1 */
-        animation: fadein 4s;
-}
-
-
-.location{
-  grid-column: 3;
-  text-align: right;
-    align-self: flex-start;
-
-
 
 }
+#CS{
+  font-size: 50px;
 
-body{
-  background-color: black;
-  color: white;
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 20px;
-}
-img{
-  width: 25px;
-  margin: 1px;
-}
-.location img{
-  width: 50px;
-  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 5s; /* Firefox < 16 */
-    -ms-animation: fadein 5s; /* Internet Explorer */
-     -o-animation: fadein 5s; /* Opera < 12.1 */
-        animation: fadein 5s;
-}
-
-#coco{
-  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 8s; /* Firefox < 16 */
-    -ms-animation: fadein 8s; /* Internet Explorer */
-     -o-animation: fadein 8s; /* Opera < 12.1 */
-        animation: fadein 8s;
-}
-#surf{
-  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 8s; /* Firefox < 16 */
-    -ms-animation: fadein 8s; /* Internet Explorer */
-     -o-animation: fadein 8s; /* Opera < 12.1 */
-        animation: fadein 8s;
-
-}
-#cam{
-  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 8s; /* Firefox < 16 */
-    -ms-animation: fadein 8s; /* Internet Explorer */
-     -o-animation: fadein 8s; /* Opera < 12.1 */
-        animation: fadein 8s;
-}
-#pc{
-  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 8s; /* Firefox < 16 */
-    -ms-animation: fadein 8s; /* Internet Explorer */
-     -o-animation: fadein 8s; /* Opera < 12.1 */
-        animation: fadein 8s;
-
-}
-
-
-/*---------Keyframes load-----------------------*/
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
 }
