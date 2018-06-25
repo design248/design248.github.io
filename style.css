@@ -90,6 +90,10 @@ a{
             animation: fadein 5s;
 
 }
+a:hover{
+  text-decoration: underline;
+
+}
 /*-------------------Media Query-------------------------------------------------------------*/
 
 
@@ -112,6 +116,7 @@ img{
 }
 ul{
   position: fixed;
+  padding: 2px;
 
 
 }
